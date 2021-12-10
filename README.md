@@ -10,7 +10,7 @@ To run the script, firstly install the required Python dependencies.
 pip install -r requirements.txt
 ```
 Now rename `.env.dist` file to `.env` and set the variables according to your configuration.
-Then start your PrestaShop Apache and MySQL server. It is assumed the shop's domain is rooted at `/` and MySQL port is `3306`. The program might be more flexible in the future!
+Then start ngrok and your PrestaShop Apache and MySQL server. It is assumed the shop's domain is rooted at `/` and MySQL port is `3306`. The program might be more flexible in the future!
 When the servers are up run the script.
 ```sh
 python main.py
